@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+h1, a {
+  font-family: 'Montserrat', 'Arial', serif;
+  font-weight: 300;
+  color: #111111;
+  transition: all .15s ease-in-out;
+}
+a:hover {
+  color: #808080;
+}
+body {
+  background-color: #e0e0e0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+div.main-container {
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+div.intro-container {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+h1.intro-title {
+  margin: 0;
+}
+div.contact-container {
+  display: inline-block;
+  padding-top: 10px;
+}
+div.contact-container a {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+/* 404 Take Me Home Button */
+#btn-404 {
+  color: #e0e0e0;
+  background-color: #6c757d;
+  border: none;
+  border-radius: .3rem;
+  margin: 32px;
+  padding: 15px 32px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  text-decoration: none;
+}
+
+#btn-404:hover {
+  color: #e0e0e0;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
